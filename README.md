@@ -14,7 +14,13 @@ company中多人开发，一般是一个帐号是team agent ,其他的team admin
 
 开发证书统一使用git存放，fastlane match可以很好的管理证书。
 
+
+
 通过fastlane的firim插件上传包到firim
+
+//**巨坑firim没有登录的时候可能会报错，所以需要登录 fir login api_token **//
+
+
 
 用jenkins保存一组如shell命令的打包指令配置，提供一个入口。
 
